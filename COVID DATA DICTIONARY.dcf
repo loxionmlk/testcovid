@@ -1,0 +1,40 @@
+﻿[Dictionary]
+Version=CSPro 7.3
+Label=COVID DATA DICTIONARY
+Name=COVID_DATA_DICTIONARY_DICT
+RecordTypeStart=1
+RecordTypeLen=1
+Positions=Relative
+ZeroFill=No
+DecimalChar=Yes
+
+[Level]
+Label=COVID DATA DICTIONARY Level
+Name=COVID_DATA_DICTIONARY_LEVEL
+
+[IdItems]
+
+[Item]
+Label=COVID DATA DICTIONARY Identification
+Name=COVID_DATA_DICTIONARY_ID
+Start=2
+Len=1
+
+[Record]
+Label=COVID DATA DICTIONARY Record
+Name=COVID_DATA_DICTIONARY_REC
+RecordTypeValue='1'
+RecordLen=23
+
+[Item]
+Label=Scan Barcode
+Name=SCAN_BARCODE
+Start=3
+Len=1
+
+[Item]
+Label=Sample Barcode
+Name=SAMPLE_BARCODE
+Start=4
+Len=20
+DataType=Alpha

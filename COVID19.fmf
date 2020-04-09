@@ -1,0 +1,81 @@
+﻿[FormFile]
+Version=CSPro 7.3
+Name=COVID_DATA_DICTIONARY_FF
+Label=COVID19
+DefaultTextFont=-013 0000 0000 0000 0700 0000 0000 0000 0000 0000 0000 0000 0000 Arial
+FieldEntryFont=0018 0000 0000 0000 0600 0000 0000 0000 0000 0000 0000 0000 0000 Courier New
+Type=SystemControlled
+  
+[Dictionaries]
+File=.\COVID DATA DICTIONARY.dcf
+  
+[Form]
+Name=FORM000
+Label=COVID DATA DICTIONARY Level
+Level=1
+Size=436,167
+  
+Item=COVID_DATA_DICTIONARY_ID
+Item=SCAN_BARCODE
+Item=SAMPLE_BARCODE
+  
+[EndForm]
+  
+[Level]
+Name=COVID_DATA_DICTIONARY_LEVEL
+Label=COVID DATA DICTIONARY Level
+  
+[Group]
+Required=Yes
+Name=COVID_DATA_DICTIONARY_LEVEL_FORM
+Label=COVID DATA DICTIONARY Level
+Form=1
+LogicControl=No
+Max=1
+  
+[Field]
+Name=COVID_DATA_DICTIONARY_ID
+Position=380,50,395,70
+Item=COVID_DATA_DICTIONARY_ID,COVID_DATA_DICTIONARY_DICT
+FieldLabelType=DictionaryLabel
+Form=1
+  
+[Text]
+Position=108,53,358,69
+Text=COVID DATA DICTIONARY Identification
+ 
+  
+  
+[Field]
+Name=SCAN_BARCODE
+Position=241,92,256,112
+Item=SCAN_BARCODE,COVID_DATA_DICTIONARY_DICT
+FieldLabelType=DictionaryLabel
+Form=1
+  
+[Text]
+Position=113,95,202,111
+Text=Scan Barcode
+ 
+  
+[Field]
+Name=SAMPLE_BARCODE
+Position=241,122,411,142
+Item=SAMPLE_BARCODE,COVID_DATA_DICTIONARY_DICT
+FieldLabelType=DictionaryLabel
+UseUnicodeTextBox=Yes
+Form=1
+  
+[Text]
+Position=113,125,219,141
+Text=Sample Barcode
+ 
+[Block]
+Name=BLOCK000
+Label=New Block
+DisplayTogether=Yes
+Position=1
+Length=2
+  
+[EndGroup]
+  

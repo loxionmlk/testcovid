@@ -1,0 +1,8 @@
+﻿[Run Information]
+Version=CSPro 7.3
+AppType=Entry
+
+[Files]
+Application=.\COVID19.ent
+InputData=.\test data.csdb
+Paradata=.\COVID19.cslog
